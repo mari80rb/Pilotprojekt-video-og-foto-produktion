@@ -1,0 +1,66 @@
+main {
+  background-image: url("/cykel.webp");
+  background-size: cover;
+  margin: 5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #916d57;
+}
+
+h1,
+h2,
+p {
+  color: white;
+  font-family: "Varela round", sans-serif;
+}
+
+p {
+  margin: 2%;
+  padding: 2%;
+}
+
+h2 {
+  margin: 1%;
+  padding: 2%;
+}
+
+#tekst {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 2%;
+  padding: 2%;
+}
+
+#billeder .section_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 2%;
+}
+
+#billeder .video {
+  grid-row: 2/3;
+  grid-column: 1/4;
+}
+
+#billeder .iframe {
+  grid-row: 3/4;
+  grid-column: 1/4;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+
+  aspect-ratio: 16/9;
+}
